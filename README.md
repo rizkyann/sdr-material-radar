@@ -71,7 +71,7 @@ This project presents the design and implementation of a Frequency Modulated Con
         git clone [https://github.com/rizkyann/sdr-material-radar.git](https://github.com/rizkyann/sdr-material-radar.git)
         cd sdr-material-radar
         ```
-    * Open the `untitled.grc` file in GNU Radio Companion.
+    * Open the `sdr_material_radar.grc` file in GNU Radio Companion.
     * Ensure your HackRFs are correctly identified. [cite_start]The flowgraph is configured for the transmitter as `hackrf=0` and the receiver as `hackrf=1` in the Osmocom blocks[cite: 580].
     * Click the **"Generate the flowgraph"** button, followed by the **"Execute the flowgraph"** button.
     * The QT GUI Frequency Sink window will appear, showing the real-time spectrum of the beat frequency signal.
